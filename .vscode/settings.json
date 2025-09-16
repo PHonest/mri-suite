@@ -1,0 +1,32 @@
+{
+  "launches": {
+    "Current File": "Python: Current File (dataset_preparation)",
+  },
+  "editor.formatOnSave": true,
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.envFile": "${workspaceFolder}/.envlocal",
+  "python.condaPath": "/Users/paulehrlich/miniconda3/bin/conda",
+  "black-formatter.path": [
+    "/Users/paulehrlich/miniconda3/envs/annot-backend/bin/black",
+  ],
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "black-formatter.importStrategy": "fromEnvironment",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+  "terminal.integrated.env.osx": {
+    "PYTHONPATH": "${workspaceFolder}"
+  },
+}

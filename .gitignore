@@ -1,0 +1,6 @@
+.local
+.export
+**__pycache__**
+**.zip
+**.npy
+**.csv
