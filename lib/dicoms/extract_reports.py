@@ -61,8 +61,8 @@ if __name__ == "__main__":
 
     paths: list[Path] = []
 
-    for i in tqdm(range(400)):
-        path = extract_report(study_metadata=list(study_metadata.values())[i])
+    for study in tqdm(study_metadata.values()):
+        path = extract_report(study_metadata=study)
 
         if path: 
             paths.append(path)

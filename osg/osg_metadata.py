@@ -20,8 +20,10 @@ if __name__ == "__main__":
         Path("/mnt/ocean_storage/data/koeln/osg/OSG_2025.tar.gz"),
     ]
 
-    study_map = build_study_dict_concurrent(paths=dicom_paths, ignore=IGNORE, debug=False)
-    
+    study_map = build_study_dict_concurrent(
+        paths=dicom_paths, ignore=IGNORE, debug=False
+    )
+
     # Save the study map to a .npy file
     output_path = Path("study_map_osg.npy")
     np.save(output_path, study_map)

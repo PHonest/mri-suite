@@ -9,10 +9,6 @@
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
   "python.envFile": "${workspaceFolder}/.envlocal",
-  "python.condaPath": "/Users/paulehrlich/miniconda3/bin/conda",
-  "black-formatter.path": [
-    "/Users/paulehrlich/miniconda3/envs/annot-backend/bin/black",
-  ],
   "editor.defaultFormatter": "ms-python.black-formatter",
   "black-formatter.importStrategy": "fromEnvironment",
   "[json]": {
@@ -29,4 +25,7 @@
   "terminal.integrated.env.osx": {
     "PYTHONPATH": "${workspaceFolder}"
   },
+  "python.analysis.extraPaths": [
+    "./osg",
+  ],
 }

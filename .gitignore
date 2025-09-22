@@ -1,5 +1,7 @@
 .local
 .export
+.envlocal
+**extracted_labels**
 **__pycache__**
 **.zip
 **.npy
