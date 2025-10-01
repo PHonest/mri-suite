@@ -1,6 +1,6 @@
 {
   "launches": {
-    "Current File": "Python: Current File (dataset_preparation)",
+    "Current File": "Python: Current File (Label Engineering)",
   },
   "editor.formatOnSave": true,
   "python.testing.pytestArgs": [

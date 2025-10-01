@@ -1,0 +1,2170 @@
+[
+    {
+        "label": "Gelenkflüssigkeiten",
+        "schemaName": "gelenkfluessigkeiten",
+        "children": [
+            {
+                "label": "OSG Erguss",
+                "schemaName": "OSG_ERGUSS",
+                "children": [
+                    {
+                        "label": "Kein",
+                        "schemaName": "KEIN"
+                    },
+                    {
+                        "label": "Gering",
+                        "schemaName": "GERING"
+                    },
+                    {
+                        "label": "Moderat",
+                        "schemaName": "MODERAT"
+                    },
+                    {
+                        "label": "Ausgeprägt",
+                        "schemaName": "AUSGEPRAEGT"
+                    }
+                ]
+            },
+            {
+                "label": "USG Subtalargelenk Erguss",
+                "schemaName": "USG_SUBTALARGELENK_ERGUSS",
+                "children": [
+                    {
+                        "label": "Kein",
+                        "schemaName": "KEIN"
+                    },
+                    {
+                        "label": "Gering",
+                        "schemaName": "GERING"
+                    },
+                    {
+                        "label": "Moderat",
+                        "schemaName": "MODERAT"
+                    },
+                    {
+                        "label": "Ausgeprägt",
+                        "schemaName": "AUSGEPRAEGT"
+                    }
+                ]
+            },
+            {
+                "label": "USG Talonavikulargelenk Erguss",
+                "schemaName": "USG_TALONAVICULARGELENK_ERGUSS",
+                "children": [
+                    {
+                        "label": "Kein",
+                        "schemaName": "KEIN"
+                    },
+                    {
+                        "label": "Gering",
+                        "schemaName": "GERING"
+                    },
+                    {
+                        "label": "Moderat",
+                        "schemaName": "MODERAT"
+                    },
+                    {
+                        "label": "Ausgeprägt",
+                        "schemaName": "AUSGEPRAEGT"
+                    }
+                ]
+            },
+            {
+                "label": "Synovitis",
+                "schemaName": "SYNOVITIS",
+                "children": [
+                    {
+                        "label": "Kein",
+                        "schemaName": "KEIN"
+                    },
+                    {
+                        "label": "Leicht",
+                        "schemaName": "LEICHT"
+                    },
+                    {
+                        "label": "Moderat",
+                        "schemaName": "MODERAT"
+                    },
+                    {
+                        "label": "Schwer",
+                        "schemaName": "SCHWER"
+                    }
+                ]
+            },
+            {
+                "label": "Ganglion oder Kapselaussackung",
+                "schemaName": "ganglion_oder_kapselaussackung"
+            },
+            {
+                "label": "Freie Gelenkkörper chondral",
+                "schemaName": "freie_gelenkkoerper_chondral"
+            },
+            {
+                "label": "Freie Gelenkkörper osteochondral",
+                "schemaName": "freie_gelenkkoerper_osteochondral"
+            }
+        ]
+    },
+    {
+        "label": "Außenbandkomplex",
+        "schemaName": "aussenbandkomplex",
+        "children": [
+            {
+                "label": "Ligamentum fibulotalare anterius (LFTA)",
+                "schemaName": "LFTA",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Ligamentum fibulocalcaneare (LFC)",
+                "schemaName": "LFC",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Ligamentum fibulotalare posterius (LFTP)",
+                "schemaName": "LFTP",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Syndesmose anterior",
+                "schemaName": "SYNDESMOSE_ANTERIOR",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Syndesmose posterior",
+                "schemaName": "SYNDESMOSE_POSTERIOR",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Interossäres Band",
+                "schemaName": "INTEROSSAERES_BAND",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Weitere Bänder",
+        "schemaName": "weiterebaender",
+        "children": [
+            {
+                "label": "Ligamentum bifurcatum",
+                "schemaName": "LIGAMENTUM_BIFURCATUM",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Ligamentum intermalleolare posterius",
+                "schemaName": "LIGAMENTUM_INTERMALLEOLARE_POSTERIUS",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Ligamentum talonaviculare dorsale",
+                "schemaName": "LIGAMENTUM_TALONAVICULARE_DORSALE",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Innenbandkomplex",
+        "schemaName": "innenbandkomplex",
+        "children": [
+            {
+                "label": "Oberflächliches Innenband",
+                "schemaName": "OBERFLAECHLICHES_INNENBAND",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Tiefes Innenband",
+                "schemaName": "TIEFES_INNENBAND",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Spring Ligament (Pfannenband)",
+                "schemaName": "SPRING_LIGAMENT",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Heilungszeichen",
+                        "schemaName": "HEILUNGSZEICHEN"
+                    },
+                    {
+                        "label": "Z.n. Rekonstruktion",
+                        "schemaName": "POSTOPERATIV_REKONSTRUKTION"
+                    },
+                    {
+                        "label": "Mucoid degeneriert",
+                        "schemaName": "MUCOIDE_DEGENERIERT"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Retinakula",
+        "schemaName": "retinakula",
+        "children": [
+            {
+                "label": "Superiores peroneales Retinaculum",
+                "schemaName": "SUPERIORES_PERONEALES_RETINACULUM",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Postoperativ",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Inferiores peroneales Retinaculum",
+                "schemaName": "INFERIORES_PERONEALES_RETINACULUM",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Postoperativ",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Extensor Retinaculum",
+                "schemaName": "EXTENSOR_RETINACULUM",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Postoperativ",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Flexor Retinaculum",
+                "schemaName": "FLEXOR_RETINACULUM",
+                "children": [
+                    {
+                        "label": "Verdickt",
+                        "schemaName": "VERDICKT"
+                    },
+                    {
+                        "label": "Ödematös",
+                        "schemaName": "OEDEMATOES"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Postoperativ",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Peronealsehnen",
+        "schemaName": "peronealsehnen",
+        "children": [
+            {
+                "label": "Peroneus brevis",
+                "schemaName": "PERONEUS_BREVIS",
+                "children": [
+                    {
+                        "label": "Tendinopathie",
+                        "schemaName": "TENDINOPATHIE"
+                    },
+                    {
+                        "label": "Tenosynovitis",
+                        "schemaName": "TENOSYNOVITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Längsriss",
+                        "schemaName": "LAENGSRISS"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Subluxation",
+                        "schemaName": "SUBLUXATION"
+                    },
+                    {
+                        "label": "Luxation",
+                        "schemaName": "LUXATION"
+                    },
+                    {
+                        "label": "Kalzifizierte Tendinose",
+                        "schemaName": "KALZIFIZIERTE_TENDINOSE"
+                    },
+                    {
+                        "label": "Postoperative Veränderung",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Peroneus longus",
+                "schemaName": "PERONEUS_LONGUS",
+                "children": [
+                    {
+                        "label": "Tendinopathie",
+                        "schemaName": "TENDINOPATHIE"
+                    },
+                    {
+                        "label": "Tenosynovitis",
+                        "schemaName": "TENOSYNOVITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Längsriss",
+                        "schemaName": "LAENGSRISS"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Subluxation",
+                        "schemaName": "SUBLUXATION"
+                    },
+                    {
+                        "label": "Luxation",
+                        "schemaName": "LUXATION"
+                    },
+                    {
+                        "label": "Kalzifizierte Tendinose",
+                        "schemaName": "KALZIFIZIERTE_TENDINOSE"
+                    },
+                    {
+                        "label": "Postoperative Veränderung",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Tenosynovitis Grad",
+                "schemaName": "tenosynovitis_grad",
+                "children": [
+                    {
+                        "label": "Kein",
+                        "schemaName": "KEIN"
+                    },
+                    {
+                        "label": "Leicht",
+                        "schemaName": "LEICHT"
+                    },
+                    {
+                        "label": "Moderat",
+                        "schemaName": "MODERAT"
+                    },
+                    {
+                        "label": "Schwer",
+                        "schemaName": "SCHWER"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Mediale Flexorensehnen",
+        "schemaName": "mediale_flexorensehnen",
+        "children": [
+            {
+                "label": "Tibialis posterior",
+                "schemaName": "TIBIALIS_POSTERIOR",
+                "children": [
+                    {
+                        "label": "Tendinopathie",
+                        "schemaName": "TENDINOPATHIE"
+                    },
+                    {
+                        "label": "Tenosynovitis",
+                        "schemaName": "TENOSYNOVITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Längsriss",
+                        "schemaName": "LAENGSRISS"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Subluxation",
+                        "schemaName": "SUBLUXATION"
+                    },
+                    {
+                        "label": "Luxation",
+                        "schemaName": "LUXATION"
+                    },
+                    {
+                        "label": "Kalzifizierte Tendinose",
+                        "schemaName": "KALZIFIZIERTE_TENDINOSE"
+                    },
+                    {
+                        "label": "Postoperative Veränderung",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Flexor hallucis longus",
+                "schemaName": "FLEXOR_HALLUCIS_LONGUS",
+                "children": [
+                    {
+                        "label": "Tendinopathie",
+                        "schemaName": "TENDINOPATHIE"
+                    },
+                    {
+                        "label": "Tenosynovitis",
+                        "schemaName": "TENOSYNOVITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Längsriss",
+                        "schemaName": "LAENGSRISS"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Subluxation",
+                        "schemaName": "SUBLUXATION"
+                    },
+                    {
+                        "label": "Luxation",
+                        "schemaName": "LUXATION"
+                    },
+                    {
+                        "label": "Kalzifizierte Tendinose",
+                        "schemaName": "KALZIFIZIERTE_TENDINOSE"
+                    },
+                    {
+                        "label": "Postoperative Veränderung",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Flexor digitorum longus",
+                "schemaName": "FLEXOR_DIGITORUM_LONGUS",
+                "children": [
+                    {
+                        "label": "Tendinopathie",
+                        "schemaName": "TENDINOPATHIE"
+                    },
+                    {
+                        "label": "Tenosynovitis",
+                        "schemaName": "TENOSYNOVITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Längsriss",
+                        "schemaName": "LAENGSRISS"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Subluxation",
+                        "schemaName": "SUBLUXATION"
+                    },
+                    {
+                        "label": "Luxation",
+                        "schemaName": "LUXATION"
+                    },
+                    {
+                        "label": "Kalzifizierte Tendinose",
+                        "schemaName": "KALZIFIZIERTE_TENDINOSE"
+                    },
+                    {
+                        "label": "Postoperative Veränderung",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Tenosynovitis Grad",
+                "schemaName": "tenosynovitis_grad",
+                "children": [
+                    {
+                        "label": "Kein",
+                        "schemaName": "KEIN"
+                    },
+                    {
+                        "label": "Leicht",
+                        "schemaName": "LEICHT"
+                    },
+                    {
+                        "label": "Moderat",
+                        "schemaName": "MODERAT"
+                    },
+                    {
+                        "label": "Schwer",
+                        "schemaName": "SCHWER"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Extensorensehnen",
+        "schemaName": "extensorensehnen",
+        "children": [
+            {
+                "label": "Tibialis anterior",
+                "schemaName": "TIBIALIS_ANTERIOR",
+                "children": [
+                    {
+                        "label": "Tendinopathie",
+                        "schemaName": "TENDINOPATHIE"
+                    },
+                    {
+                        "label": "Tenosynovitis",
+                        "schemaName": "TENOSYNOVITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Längsriss",
+                        "schemaName": "LAENGSRISS"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Subluxation",
+                        "schemaName": "SUBLUXATION"
+                    },
+                    {
+                        "label": "Luxation",
+                        "schemaName": "LUXATION"
+                    },
+                    {
+                        "label": "Kalzifizierte Tendinose",
+                        "schemaName": "KALZIFIZIERTE_TENDINOSE"
+                    },
+                    {
+                        "label": "Postoperative Veränderung",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Extensor hallucis longus",
+                "schemaName": "EXTENSOR_HALLUCIS_LONGUS",
+                "children": [
+                    {
+                        "label": "Tendinopathie",
+                        "schemaName": "TENDINOPATHIE"
+                    },
+                    {
+                        "label": "Tenosynovitis",
+                        "schemaName": "TENOSYNOVITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Längsriss",
+                        "schemaName": "LAENGSRISS"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Subluxation",
+                        "schemaName": "SUBLUXATION"
+                    },
+                    {
+                        "label": "Luxation",
+                        "schemaName": "LUXATION"
+                    },
+                    {
+                        "label": "Kalzifizierte Tendinose",
+                        "schemaName": "KALZIFIZIERTE_TENDINOSE"
+                    },
+                    {
+                        "label": "Postoperative Veränderung",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Extensor digitorum longus",
+                "schemaName": "EXTENSOR_DIGITORUM_LONGUS",
+                "children": [
+                    {
+                        "label": "Tendinopathie",
+                        "schemaName": "TENDINOPATHIE"
+                    },
+                    {
+                        "label": "Tenosynovitis",
+                        "schemaName": "TENOSYNOVITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Längsriss",
+                        "schemaName": "LAENGSRISS"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Subluxation",
+                        "schemaName": "SUBLUXATION"
+                    },
+                    {
+                        "label": "Luxation",
+                        "schemaName": "LUXATION"
+                    },
+                    {
+                        "label": "Kalzifizierte Tendinose",
+                        "schemaName": "KALZIFIZIERTE_TENDINOSE"
+                    },
+                    {
+                        "label": "Postoperative Veränderung",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Tenosynovitis Grad",
+                "schemaName": "tenosynovitis_grad",
+                "children": [
+                    {
+                        "label": "Kein",
+                        "schemaName": "KEIN"
+                    },
+                    {
+                        "label": "Leicht",
+                        "schemaName": "LEICHT"
+                    },
+                    {
+                        "label": "Moderat",
+                        "schemaName": "MODERAT"
+                    },
+                    {
+                        "label": "Schwer",
+                        "schemaName": "SCHWER"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Achillessehne",
+        "schemaName": "achillessehne",
+        "children": [
+            {
+                "label": "Achillessehne",
+                "schemaName": "ACHILLESSEHNE",
+                "children": [
+                    {
+                        "label": "Tendinopathie",
+                        "schemaName": "TENDINOPATHIE"
+                    },
+                    {
+                        "label": "Tenosynovitis",
+                        "schemaName": "TENOSYNOVITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Längsriss",
+                        "schemaName": "LAENGSRISS"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Subluxation",
+                        "schemaName": "SUBLUXATION"
+                    },
+                    {
+                        "label": "Luxation",
+                        "schemaName": "LUXATION"
+                    },
+                    {
+                        "label": "Kalzifizierte Tendinose",
+                        "schemaName": "KALZIFIZIERTE_TENDINOSE"
+                    },
+                    {
+                        "label": "Postoperative Veränderung",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Plantarissehne",
+                "schemaName": "PLANTARISSEHNE",
+                "children": [
+                    {
+                        "label": "Tendinopathie",
+                        "schemaName": "TENDINOPATHIE"
+                    },
+                    {
+                        "label": "Tenosynovitis",
+                        "schemaName": "TENOSYNOVITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Längsriss",
+                        "schemaName": "LAENGSRISS"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Subluxation",
+                        "schemaName": "SUBLUXATION"
+                    },
+                    {
+                        "label": "Luxation",
+                        "schemaName": "LUXATION"
+                    },
+                    {
+                        "label": "Kalzifizierte Tendinose",
+                        "schemaName": "KALZIFIZIERTE_TENDINOSE"
+                    },
+                    {
+                        "label": "Postoperative Veränderung",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Nicht abgrenzbar",
+                        "schemaName": "NICHT_ABGRENZBAR"
+                    }
+                ]
+            },
+            {
+                "label": "Zusatzbefunde",
+                "schemaName": "zusatzbefunde",
+                "children": [
+                    {
+                        "label": "Haglund-Deformität",
+                        "schemaName": "HAGLUND_DEFORMITAET"
+                    },
+                    {
+                        "label": "Bursitis subachillea",
+                        "schemaName": "BURSITIS_SUBACHILLEA"
+                    },
+                    {
+                        "label": "Bursitis subcutanea calcanea",
+                        "schemaName": "BURSITIS_SUBCUTANEA"
+                    },
+                    {
+                        "label": "Enthesiopathie",
+                        "schemaName": "ENTHESIOPATHIE"
+                    },
+                    {
+                        "label": "Peritendinitis",
+                        "schemaName": "PERITENDINITIS"
+                    },
+                    {
+                        "label": "Ödem im Kager Fettkörper",
+                        "schemaName": "OEDEM_IM_KAGER_FETTKÖRPER"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Plantarfaszie",
+        "schemaName": "plantarfaszie",
+        "children": [
+            {
+                "label": "Pathologie",
+                "schemaName": "pathologie",
+                "children": [
+                    {
+                        "label": "Normal",
+                        "schemaName": "NORMAL"
+                    },
+                    {
+                        "label": "Fasziitis",
+                        "schemaName": "FASZIITIS"
+                    },
+                    {
+                        "label": "Partialruptur",
+                        "schemaName": "PARTIALRUPTUR"
+                    },
+                    {
+                        "label": "Komplettruptur",
+                        "schemaName": "KOMPLETTRUPTUR"
+                    },
+                    {
+                        "label": "Fibromatose",
+                        "schemaName": "FIBROMATOSE"
+                    },
+                    {
+                        "label": "Perifasziales Ödem",
+                        "schemaName": "PERIFASZIALES_OEDEM"
+                    },
+                    {
+                        "label": "Ödem des Fersenpolsters",
+                        "schemaName": "OEDEM_FERSENPOLSTER"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Talokruraler Knorpel",
+        "schemaName": "talokruraler_knorpel",
+        "children": [
+            {
+                "label": "Distale Tibia",
+                "schemaName": "distale_Tibia",
+                "children": [
+                    {
+                        "label": "Fokaler teilschichtiger Defekt",
+                        "schemaName": "TEILSCHICHTDEFEKT"
+                    },
+                    {
+                        "label": "Fokaler vollschichtiger Defekt",
+                        "schemaName": "VOLLSCHICHTDEFEKT"
+                    },
+                    {
+                        "label": "Oberflächenfibrillation",
+                        "schemaName": "OBERFLAECHENFIBRILLATION"
+                    },
+                    {
+                        "label": "Fissur",
+                        "schemaName": "FISSUR"
+                    },
+                    {
+                        "label": "Delamination",
+                        "schemaName": "DELAMINATION"
+                    },
+                    {
+                        "label": "Chondropathie Grad II/III",
+                        "schemaName": "CHONDROPATHIE_II_III"
+                    },
+                    {
+                        "label": "Chondropathie Grad IV",
+                        "schemaName": "CHONDROPATHIE_IV"
+                    },
+                    {
+                        "label": "Knorpelreduktion",
+                        "schemaName": "AUSDUENNUNG"
+                    },
+                    {
+                        "label": "Osteochondrale Läsion",
+                        "schemaName": "OSTEOCHONDRALE_LAESION"
+                    },
+                    {
+                        "label": "Z.n. Knorpelersatz",
+                        "schemaName": "ZN_KNORPELERSATZ"
+                    },
+                    {
+                        "label": "Z.n. Mikrofrakturierung",
+                        "schemaName": "ZN_MIKROFRAKTURIERUNG"
+                    }
+                ]
+            },
+            {
+                "label": "Talus",
+                "schemaName": "talus",
+                "children": [
+                    {
+                        "label": "Fokaler teilschichtiger Defekt",
+                        "schemaName": "TEILSCHICHTDEFEKT"
+                    },
+                    {
+                        "label": "Fokaler vollschichtiger Defekt",
+                        "schemaName": "VOLLSCHICHTDEFEKT"
+                    },
+                    {
+                        "label": "Oberflächenfibrillation",
+                        "schemaName": "OBERFLAECHENFIBRILLATION"
+                    },
+                    {
+                        "label": "Fissur",
+                        "schemaName": "FISSUR"
+                    },
+                    {
+                        "label": "Delamination",
+                        "schemaName": "DELAMINATION"
+                    },
+                    {
+                        "label": "Chondropathie Grad II/III",
+                        "schemaName": "CHONDROPATHIE_II_III"
+                    },
+                    {
+                        "label": "Chondropathie Grad IV",
+                        "schemaName": "CHONDROPATHIE_IV"
+                    },
+                    {
+                        "label": "Knorpelreduktion",
+                        "schemaName": "AUSDUENNUNG"
+                    },
+                    {
+                        "label": "Osteochondrale Läsion",
+                        "schemaName": "OSTEOCHONDRALE_LAESION"
+                    },
+                    {
+                        "label": "Z.n. Knorpelersatz",
+                        "schemaName": "ZN_KNORPELERSATZ"
+                    },
+                    {
+                        "label": "Z.n. Mikrofrakturierung",
+                        "schemaName": "ZN_MIKROFRAKTURIERUNG"
+                    }
+                ]
+            },
+            {
+                "label": "Osteochondrale Läsion",
+                "schemaName": "osteochondrale_laesion",
+                "children": [
+                    {
+                        "label": "Lokalisation Talus",
+                        "schemaName": "lokalisation_talus",
+                        "children": [
+                            {
+                                "label": "Medial",
+                                "schemaName": "MEDIAL"
+                            },
+                            {
+                                "label": "Zentral",
+                                "schemaName": "ZENTRAL"
+                            },
+                            {
+                                "label": "Lateral",
+                                "schemaName": "LATERAL"
+                            },
+                            {
+                                "label": "Anterolateral",
+                                "schemaName": "ANTEROLATERAL"
+                            },
+                            {
+                                "label": "Posterolateral",
+                                "schemaName": "POSTEROLATERAL"
+                            },
+                            {
+                                "label": "Anteromedial",
+                                "schemaName": "ANTEROMEDIAL"
+                            },
+                            {
+                                "label": "Posteromedial",
+                                "schemaName": "POSTEROMEDIAL"
+                            },
+                            {
+                                "label": "Nicht spezifiziert",
+                                "schemaName": "NICHT_SPEZIFIZIERT"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lokalisation distale Tibia",
+                        "schemaName": "lokalisation_distale_tibia",
+                        "children": [
+                            {
+                                "label": "Medial",
+                                "schemaName": "MEDIAL"
+                            },
+                            {
+                                "label": "Zentral",
+                                "schemaName": "ZENTRAL"
+                            },
+                            {
+                                "label": "Lateral",
+                                "schemaName": "LATERAL"
+                            },
+                            {
+                                "label": "Nicht spezifiziert",
+                                "schemaName": "NICHT_SPEZIFIZIERT"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Größe mediolateral (mm)",
+                        "schemaName": "groesse_mm_mediolateral"
+                    },
+                    {
+                        "label": "Größe anteroposterior (mm)",
+                        "schemaName": "groesse_mm_anteroposterior"
+                    },
+                    {
+                        "label": "Stabilität",
+                        "schemaName": "stabilitaet",
+                        "children": [
+                            {
+                                "label": "Stabil",
+                                "schemaName": "STABIL"
+                            },
+                            {
+                                "label": "Instabil",
+                                "schemaName": "INSTABIL"
+                            },
+                            {
+                                "label": "Nicht beurteilbar",
+                                "schemaName": "NICHT_BEURTEILBAR"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Subchondrale Zyste",
+                        "schemaName": "subchondrale_zyste"
+                    },
+                    {
+                        "label": "Subchondrales Ödem",
+                        "schemaName": "subchondrales_oedem"
+                    },
+                    {
+                        "label": "Disloziertes Fragment",
+                        "schemaName": "disloziertes_fragment"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Subtalarer Knorpel",
+        "schemaName": "subtalarer_knorpel",
+        "children": [
+            {
+                "label": "Hintere Facette",
+                "schemaName": "hintere_facette",
+                "children": [
+                    {
+                        "label": "Fokaler teilschichtiger Defekt",
+                        "schemaName": "TEILSCHICHTDEFEKT"
+                    },
+                    {
+                        "label": "Fokaler vollschichtiger Defekt",
+                        "schemaName": "VOLLSCHICHTDEFEKT"
+                    },
+                    {
+                        "label": "Oberflächenfibrillation",
+                        "schemaName": "OBERFLAECHENFIBRILLATION"
+                    },
+                    {
+                        "label": "Fissur",
+                        "schemaName": "FISSUR"
+                    },
+                    {
+                        "label": "Delamination",
+                        "schemaName": "DELAMINATION"
+                    },
+                    {
+                        "label": "Chondropathie Grad II/III",
+                        "schemaName": "CHONDROPATHIE_II_III"
+                    },
+                    {
+                        "label": "Chondropathie Grad IV",
+                        "schemaName": "CHONDROPATHIE_IV"
+                    },
+                    {
+                        "label": "Knorpelreduktion",
+                        "schemaName": "AUSDUENNUNG"
+                    },
+                    {
+                        "label": "Osteochondrale Läsion",
+                        "schemaName": "OSTEOCHONDRALE_LAESION"
+                    },
+                    {
+                        "label": "Z.n. Knorpelersatz",
+                        "schemaName": "ZN_KNORPELERSATZ"
+                    },
+                    {
+                        "label": "Z.n. Mikrofrakturierung",
+                        "schemaName": "ZN_MIKROFRAKTURIERUNG"
+                    }
+                ]
+            },
+            {
+                "label": "Mittlere Facette",
+                "schemaName": "mittlere_facette",
+                "children": [
+                    {
+                        "label": "Fokaler teilschichtiger Defekt",
+                        "schemaName": "TEILSCHICHTDEFEKT"
+                    },
+                    {
+                        "label": "Fokaler vollschichtiger Defekt",
+                        "schemaName": "VOLLSCHICHTDEFEKT"
+                    },
+                    {
+                        "label": "Oberflächenfibrillation",
+                        "schemaName": "OBERFLAECHENFIBRILLATION"
+                    },
+                    {
+                        "label": "Fissur",
+                        "schemaName": "FISSUR"
+                    },
+                    {
+                        "label": "Delamination",
+                        "schemaName": "DELAMINATION"
+                    },
+                    {
+                        "label": "Chondropathie Grad II/III",
+                        "schemaName": "CHONDROPATHIE_II_III"
+                    },
+                    {
+                        "label": "Chondropathie Grad IV",
+                        "schemaName": "CHONDROPATHIE_IV"
+                    },
+                    {
+                        "label": "Knorpelreduktion",
+                        "schemaName": "AUSDUENNUNG"
+                    },
+                    {
+                        "label": "Osteochondrale Läsion",
+                        "schemaName": "OSTEOCHONDRALE_LAESION"
+                    },
+                    {
+                        "label": "Z.n. Knorpelersatz",
+                        "schemaName": "ZN_KNORPELERSATZ"
+                    },
+                    {
+                        "label": "Z.n. Mikrofrakturierung",
+                        "schemaName": "ZN_MIKROFRAKTURIERUNG"
+                    }
+                ]
+            },
+            {
+                "label": "Vordere Facette",
+                "schemaName": "vordere_facette",
+                "children": [
+                    {
+                        "label": "Fokaler teilschichtiger Defekt",
+                        "schemaName": "TEILSCHICHTDEFEKT"
+                    },
+                    {
+                        "label": "Fokaler vollschichtiger Defekt",
+                        "schemaName": "VOLLSCHICHTDEFEKT"
+                    },
+                    {
+                        "label": "Oberflächenfibrillation",
+                        "schemaName": "OBERFLAECHENFIBRILLATION"
+                    },
+                    {
+                        "label": "Fissur",
+                        "schemaName": "FISSUR"
+                    },
+                    {
+                        "label": "Delamination",
+                        "schemaName": "DELAMINATION"
+                    },
+                    {
+                        "label": "Chondropathie Grad II/III",
+                        "schemaName": "CHONDROPATHIE_II_III"
+                    },
+                    {
+                        "label": "Chondropathie Grad IV",
+                        "schemaName": "CHONDROPATHIE_IV"
+                    },
+                    {
+                        "label": "Knorpelreduktion",
+                        "schemaName": "AUSDUENNUNG"
+                    },
+                    {
+                        "label": "Osteochondrale Läsion",
+                        "schemaName": "OSTEOCHONDRALE_LAESION"
+                    },
+                    {
+                        "label": "Z.n. Knorpelersatz",
+                        "schemaName": "ZN_KNORPELERSATZ"
+                    },
+                    {
+                        "label": "Z.n. Mikrofrakturierung",
+                        "schemaName": "ZN_MIKROFRAKTURIERUNG"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Knochenbefunde",
+        "schemaName": "knochen_befunde",
+        "children": [
+            {
+                "label": "Distale Tibia",
+                "schemaName": "tibia_distal",
+                "children": [
+                    {
+                        "label": "Subchondrales Knochenmarködem",
+                        "schemaName": "SUBCHONDRALES_KM_OEDEM"
+                    },
+                    {
+                        "label": "Markraumoedem",
+                        "schemaName": "MARKOEDEM"
+                    },
+                    {
+                        "label": "Subchondrale Sklerosierung",
+                        "schemaName": "SUBCHONDRALE_SKLEROSIERUNG"
+                    },
+                    {
+                        "label": "Subchondrale Zyste",
+                        "schemaName": "SUBCHONDRALE_ZYSTE"
+                    },
+                    {
+                        "label": "Fraktur",
+                        "schemaName": "FRAKTUR"
+                    },
+                    {
+                        "label": "Stressreaktion",
+                        "schemaName": "STRESSREAKTION"
+                    },
+                    {
+                        "label": "Knochennekrose",
+                        "schemaName": "NEKROSE"
+                    },
+                    {
+                        "label": "Osteomyelitis",
+                        "schemaName": "OSTEOMYELITIS"
+                    },
+                    {
+                        "label": "Knochenkontusion",
+                        "schemaName": "KONTUSION"
+                    },
+                    {
+                        "label": "Andere Knochenläsion",
+                        "schemaName": "ANDERE"
+                    }
+                ]
+            },
+            {
+                "label": "Distale Fibula",
+                "schemaName": "fibula_distal",
+                "children": [
+                    {
+                        "label": "Subchondrales Knochenmarködem",
+                        "schemaName": "SUBCHONDRALES_KM_OEDEM"
+                    },
+                    {
+                        "label": "Markraumoedem",
+                        "schemaName": "MARKOEDEM"
+                    },
+                    {
+                        "label": "Subchondrale Sklerosierung",
+                        "schemaName": "SUBCHONDRALE_SKLEROSIERUNG"
+                    },
+                    {
+                        "label": "Subchondrale Zyste",
+                        "schemaName": "SUBCHONDRALE_ZYSTE"
+                    },
+                    {
+                        "label": "Fraktur",
+                        "schemaName": "FRAKTUR"
+                    },
+                    {
+                        "label": "Stressreaktion",
+                        "schemaName": "STRESSREAKTION"
+                    },
+                    {
+                        "label": "Knochennekrose",
+                        "schemaName": "NEKROSE"
+                    },
+                    {
+                        "label": "Osteomyelitis",
+                        "schemaName": "OSTEOMYELITIS"
+                    },
+                    {
+                        "label": "Knochenkontusion",
+                        "schemaName": "KONTUSION"
+                    },
+                    {
+                        "label": "Andere Knochenläsion",
+                        "schemaName": "ANDERE"
+                    }
+                ]
+            },
+            {
+                "label": "Talus",
+                "schemaName": "talus",
+                "children": [
+                    {
+                        "label": "Subchondrales Knochenmarködem",
+                        "schemaName": "SUBCHONDRALES_KM_OEDEM"
+                    },
+                    {
+                        "label": "Markraumoedem",
+                        "schemaName": "MARKOEDEM"
+                    },
+                    {
+                        "label": "Subchondrale Sklerosierung",
+                        "schemaName": "SUBCHONDRALE_SKLEROSIERUNG"
+                    },
+                    {
+                        "label": "Subchondrale Zyste",
+                        "schemaName": "SUBCHONDRALE_ZYSTE"
+                    },
+                    {
+                        "label": "Fraktur",
+                        "schemaName": "FRAKTUR"
+                    },
+                    {
+                        "label": "Stressreaktion",
+                        "schemaName": "STRESSREAKTION"
+                    },
+                    {
+                        "label": "Knochennekrose",
+                        "schemaName": "NEKROSE"
+                    },
+                    {
+                        "label": "Osteomyelitis",
+                        "schemaName": "OSTEOMYELITIS"
+                    },
+                    {
+                        "label": "Knochenkontusion",
+                        "schemaName": "KONTUSION"
+                    },
+                    {
+                        "label": "Andere Knochenläsion",
+                        "schemaName": "ANDERE"
+                    }
+                ]
+            },
+            {
+                "label": "Calcaneus",
+                "schemaName": "calcaneus",
+                "children": [
+                    {
+                        "label": "Subchondrales Knochenmarködem",
+                        "schemaName": "SUBCHONDRALES_KM_OEDEM"
+                    },
+                    {
+                        "label": "Markraumoedem",
+                        "schemaName": "MARKOEDEM"
+                    },
+                    {
+                        "label": "Subchondrale Sklerosierung",
+                        "schemaName": "SUBCHONDRALE_SKLEROSIERUNG"
+                    },
+                    {
+                        "label": "Subchondrale Zyste",
+                        "schemaName": "SUBCHONDRALE_ZYSTE"
+                    },
+                    {
+                        "label": "Fraktur",
+                        "schemaName": "FRAKTUR"
+                    },
+                    {
+                        "label": "Stressreaktion",
+                        "schemaName": "STRESSREAKTION"
+                    },
+                    {
+                        "label": "Knochennekrose",
+                        "schemaName": "NEKROSE"
+                    },
+                    {
+                        "label": "Osteomyelitis",
+                        "schemaName": "OSTEOMYELITIS"
+                    },
+                    {
+                        "label": "Knochenkontusion",
+                        "schemaName": "KONTUSION"
+                    },
+                    {
+                        "label": "Andere Knochenläsion",
+                        "schemaName": "ANDERE"
+                    }
+                ]
+            },
+            {
+                "label": "Naviculare",
+                "schemaName": "naviculare",
+                "children": [
+                    {
+                        "label": "Subchondrales Knochenmarködem",
+                        "schemaName": "SUBCHONDRALES_KM_OEDEM"
+                    },
+                    {
+                        "label": "Markraumoedem",
+                        "schemaName": "MARKOEDEM"
+                    },
+                    {
+                        "label": "Subchondrale Sklerosierung",
+                        "schemaName": "SUBCHONDRALE_SKLEROSIERUNG"
+                    },
+                    {
+                        "label": "Subchondrale Zyste",
+                        "schemaName": "SUBCHONDRALE_ZYSTE"
+                    },
+                    {
+                        "label": "Fraktur",
+                        "schemaName": "FRAKTUR"
+                    },
+                    {
+                        "label": "Stressreaktion",
+                        "schemaName": "STRESSREAKTION"
+                    },
+                    {
+                        "label": "Knochennekrose",
+                        "schemaName": "NEKROSE"
+                    },
+                    {
+                        "label": "Osteomyelitis",
+                        "schemaName": "OSTEOMYELITIS"
+                    },
+                    {
+                        "label": "Knochenkontusion",
+                        "schemaName": "KONTUSION"
+                    },
+                    {
+                        "label": "Andere Knochenläsion",
+                        "schemaName": "ANDERE"
+                    }
+                ]
+            },
+            {
+                "label": "Cuboid",
+                "schemaName": "cuboid",
+                "children": [
+                    {
+                        "label": "Subchondrales Knochenmarködem",
+                        "schemaName": "SUBCHONDRALES_KM_OEDEM"
+                    },
+                    {
+                        "label": "Markraumoedem",
+                        "schemaName": "MARKOEDEM"
+                    },
+                    {
+                        "label": "Subchondrale Sklerosierung",
+                        "schemaName": "SUBCHONDRALE_SKLEROSIERUNG"
+                    },
+                    {
+                        "label": "Subchondrale Zyste",
+                        "schemaName": "SUBCHONDRALE_ZYSTE"
+                    },
+                    {
+                        "label": "Fraktur",
+                        "schemaName": "FRAKTUR"
+                    },
+                    {
+                        "label": "Stressreaktion",
+                        "schemaName": "STRESSREAKTION"
+                    },
+                    {
+                        "label": "Knochennekrose",
+                        "schemaName": "NEKROSE"
+                    },
+                    {
+                        "label": "Osteomyelitis",
+                        "schemaName": "OSTEOMYELITIS"
+                    },
+                    {
+                        "label": "Knochenkontusion",
+                        "schemaName": "KONTUSION"
+                    },
+                    {
+                        "label": "Andere Knochenläsion",
+                        "schemaName": "ANDERE"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Alignment und Instabilität",
+        "schemaName": "alignment_instabilitaet",
+        "children": [
+            {
+                "label": "Rückfußstellung",
+                "schemaName": "Rueckfussstellung",
+                "children": [
+                    {
+                        "label": "Neutral",
+                        "schemaName": "NEUTRAL"
+                    },
+                    {
+                        "label": "Valgus",
+                        "schemaName": "VALGUS"
+                    },
+                    {
+                        "label": "Varus",
+                        "schemaName": "VARUS"
+                    }
+                ]
+            },
+            {
+                "label": "Syndesmose weit",
+                "schemaName": "syndesmose_weit"
+            },
+            {
+                "label": "Chronische laterale Instabilität",
+                "schemaName": "chronische_laterale_instabilitaet"
+            },
+            {
+                "label": "Mediale Instabilität",
+                "schemaName": "mediale_instabilitaet"
+            }
+        ]
+    },
+    {
+        "label": "Ossikel Varianten",
+        "schemaName": "ossikel_varianten",
+        "children": [
+            {
+                "label": "Vorhanden",
+                "schemaName": "vorhanden",
+                "children": [
+                    {
+                        "label": "Os trigonum",
+                        "schemaName": "OS_TRIGONUM"
+                    },
+                    {
+                        "label": "Stieda-Fortsatz",
+                        "schemaName": "STIEDA_FORTSATZ"
+                    },
+                    {
+                        "label": "Os peroneum",
+                        "schemaName": "OS_PERONEUM"
+                    },
+                    {
+                        "label": "Os naviculare accessorium",
+                        "schemaName": "OS_NAVICULARE"
+                    },
+                    {
+                        "label": "Os subtibiale",
+                        "schemaName": "OS_SUBTIBIALE"
+                    },
+                    {
+                        "label": "Os subfibulare",
+                        "schemaName": "OS_SUBFIBULARE"
+                    },
+                    {
+                        "label": "Andere",
+                        "schemaName": "ANDERE"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Neurovaskulär/Weichteile",
+        "schemaName": "neurovaskulaer_weichteile",
+        "children": [
+            {
+                "label": "Tarsaltunnel",
+                "schemaName": "tarsaltunnel",
+                "children": [
+                    {
+                        "label": "Kein",
+                        "schemaName": "KEIN"
+                    },
+                    {
+                        "label": "Narben/Fibrose im Tarsaltunnel",
+                        "schemaName": "TARSALTUNNEL_NARBE"
+                    },
+                    {
+                        "label": "Ganglion mit Nervenkompression",
+                        "schemaName": "GANGLION"
+                    },
+                    {
+                        "label": "Raumforderung",
+                        "schemaName": "RAUMFORDERUNG"
+                    },
+                    {
+                        "label": "Neuritis",
+                        "schemaName": "NEURITIS"
+                    },
+                    {
+                        "label": "Varicosis",
+                        "schemaName": "VARICOSIS"
+                    }
+                ]
+            },
+            {
+                "label": "Weichteile",
+                "schemaName": "weichteile",
+                "children": [
+                    {
+                        "label": "Ödem",
+                        "schemaName": "OEDEM"
+                    },
+                    {
+                        "label": "Hämatom",
+                        "schemaName": "HAEMATOM"
+                    },
+                    {
+                        "label": "Narbe",
+                        "schemaName": "NARBE"
+                    },
+                    {
+                        "label": "Postoperativ",
+                        "schemaName": "POSTOPERATIV"
+                    },
+                    {
+                        "label": "Sinus-tarsi-Syndrom",
+                        "schemaName": "SINUS_TARSI_SYNDROM"
+                    }
+                ]
+            },
+            {
+                "label": "Subkutanes Ödem",
+                "schemaName": "subkutanes_oedem"
+            },
+            {
+                "label": "Varicosis oder Venenverdickung",
+                "schemaName": "varicosis_oder_venenverdickung"
+            }
+        ]
+    },
+    {
+        "label": "Postoperativ",
+        "schemaName": "postoperativ",
+        "children": [
+            {
+                "label": "Metallimplantate",
+                "schemaName": "metallimplantate"
+            },
+            {
+                "label": "Schraubenkanäle",
+                "schemaName": "schraubenkanaele"
+            },
+            {
+                "label": "Osteotomiezeichen",
+                "schemaName": "osteotomiezeichen"
+            }
+        ]
+    },
+    {
+        "label": "Artefakte",
+        "schemaName": "artefakte",
+        "children": [
+            {
+                "label": "Bewegungsartefakt",
+                "schemaName": "BEWEGUNG"
+            },
+            {
+                "label": "Metallartefakt",
+                "schemaName": "METALL"
+            },
+            {
+                "label": "Suszeptibilitätsartefakt",
+                "schemaName": "SUSZEPTIBILITAET"
+            },
+            {
+                "label": "Eingeschränkte Beurteilbarkeit",
+                "schemaName": "EINGESCHRAENKT"
+            }
+        ]
+    },
+    {
+        "label": "Z.n. Operation",
+        "schemaName": "zn_operation"
+    },
+    {
+        "label": "Z.n. Sprunggelenksdistorsion",
+        "schemaName": "zn_sprunggelenksdistorsion"
+    }
+]

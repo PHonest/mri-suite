@@ -8,11 +8,11 @@ import openai
 
 from osg.model import SprunggelenkMRTBericht
 
-API_KEY = os.getenv("API_KEY_HPC")
-API_URL = os.getenv("API_URL_HPC")
+API_KEY = os.getenv("API_KEY")
+API_URL = os.getenv("API_URL")
 
 EXTRACT_PATH = Path(
-    "/home/homesOnMaster/pehrlich/dataset_preparation/osg/extracted_labels/results"
+    "/Users/admin/Projekte/Datenaufbereitung/Label Engineering/osg/extracted_labels/results"
 )
 
 client = instructor.from_openai(
@@ -29,80 +29,103 @@ client = instructor.from_openai(
 
 def extract_data(report: str) -> SprunggelenkMRTBericht:
     return client.chat.completions.create_with_completion(
-        model="mistralai/Mixtral-8x22B-Instruct-v0.1",
+        # model="mistralai/Mixtral-8x22B-Instruct-v0.1",
+        model="gpt-5",
+        # model="mistralai/Mistral-Small-3.2-24B-Instruct-2506",
         response_model=SprunggelenkMRTBericht,
         messages=[
             {
                 "role": "system",
-                "content": """Extrahiere Daten gemäß dem Sprunggelenk-MRT-Schema.
+                "content": """# Sprunggelenk-MRT Datenextraktion
 
-  ## LABEL-SCHEMATA UND REFERENCES - KERNPRINZIP:
+Extrahiere Daten gemäß dem Sprunggelenk-MRT-Schema.
 
-  ### LabelWithReferences:
-  - Für definitive pathologische Befunde mit VERPFLICHTENDEN Referenzen
-  - `references` MUSS wortwörtliche Zitate aus dem Befundtext enthalten
-  - Jede Pathologie braucht ihre Textquelle als Beleg
+## KRITISCHE REGEL - REFERENZ-PFLICHT FÜR POSITIVE DIAGNOSEN:
 
-  ### LabelWithOptionalReferences:
-  - Für Befunde mit OPTIONALEN Referenzen, besonders Negativbefunde
-  - Bei Negativbefunden (KEIN, NEUTRAL, STABIL): `references = None` ist ausreichend
-  - Bei Positivbefunden: `references` mit wortwörtlichen Zitaten füllen
-  - Negativbefunde entstehen oft durch ABWESENHEIT pathologischer Beschreibungen
+**JEDE POSITIVE PATHOLOGIE MUSS MIT ORIGINALTEXT BELEGT WERDEN**
 
-  ### REFERENCES - WORTWÖRTLICHE ZITATE:
-  - Exakte Textpassagen aus dem MRT-Befund kopieren
-  - KEINE Paraphrasierung oder Zusammenfassung
-  - KEINE eigenen Formulierungen
-  - KEINE Referenzen für Negativ Befunde ["Nicht abgrenzbar", "Kein"]
-  - Beispiel: "mäßiger Gelenkerguss im OSG" → references: ["mäßiger Gelenkerguss im OSG"]
+- Positive Diagnose → `references` MUSS wortwörtliches Zitat enthalten
+- Positive Diagnose ohne Referenz → UNGÜLTIG
+- Negative Diagnose → `references = None` ist ausreichend
 
-  ## SUCHSTRATEGIE:
-  - Nutze 620+ spezifische Suchbegriffe in Enum-Kommentaren
-  - Kombiniere anatomische mit pathologischen Begriffen
-  - Beachte Synonyme: "Fibularis" = "Peroneus", "Tendo Achillis" = "Achillessehne"
-  - Erkenne Abkürzungen: LFTA, LFC, LFTP, SPR, IPR, OSG, USG
+## LABEL-SCHEMATA UND REFERENCES:
 
-  ## ANATOMISCHE PRÄZISION:
-  - OSG (oberes Sprunggelenk) vs USG (unteres Sprunggelenk)
-  - Lokalisationen: medial/lateral/zentral am Talus/Tibia
-  - Sehnendifferenzierung: Tibialis anterior vs posterior
-  - Bandstrukturen: LFTA vs LFC vs LFTP
+### LabelWithReferences:
+**Für definitive pathologische Befunde mit VERPFLICHTENDEN Referenzen**
 
-  ## UNBEKANNTE_DIAGNOSEN - Schema-Lücken-Erfassung:
+- `references` MUSS wortwörtliche Zitate aus dem Befundtext enthalten
+- **KEINE AUSNAHMEN:** Jede Pathologie braucht ihre Textquelle als Beleg
+- Bei fehlender Referenz: Diagnose ist UNGÜLTIG
 
-  ### Zweck:
-  Forschungstool zur Identifikation fehlender Pathologien im Schema. Dient der Schema-Verbesserung und -Vollständigkeit.
+### LabelWithOptionalReferences:
+**Für Befunde mit konditionalen Referenzen**
 
-  ### Erfassungskriterien (alle müssen erfüllt sein):
-  1. Gesicherte, definitiv beschriebene Pathologie
-  2. Keine passende Option in 620+ verfügbaren Enum-Begriffen
-  3. Medizinisch relevante Pathologie
-  4. Sprunggelenkbezogen
+#### POSITIVE Befunde:
+- **ZWINGEND:** `references` mit wortwörtlichen Zitaten füllen
+- Gleiche Regel wie LabelWithReferences
 
-  ### NICHT erfassen:
-  - Vermutungen: "möglich", "verdächtig", "DD:", "eventuell"
-  - Detailbeschreibungen bereits erfasster Pathologien
-  - Synonyme vorhandener Enum-Optionen
-  - Lokalisierungsdetails bereits erfasster Befunde
-  - Ausschlussdiagnosen: "kein Hinweis auf"
+#### NEGATIVE Befunde (KEIN, NEUTRAL, STABIL):
+- `references = None` ist ausreichend
+- Entstehen oft durch ABWESENHEIT pathologischer Beschreibungen
 
-  ### Beispiele NICHT als unbekannt (bereits im Schema):
-  - "Dorsales Ganglion" → ganglion_oder_kapselaussackung: true
-  - "Fibularis brevis Tendinopathie" → PERONEUS_BREVIS: [TENDINOPATHIE]
-  - "Anteromediale osteochondrale Läsion" → lokalisation_talus: ANTEROMEDIAL
-  - "Tenosynovitis der Peronealsehnen" → tenosynovitis_grad: MODERAT
+## REFERENCES - ORIGINALTEXT-REGEL:
 
-  ### Beispiele für echte Schema-Lücken:
-  - "Morton Neurom zwischen 3. und 4. Mittelfußknochen"
-  - "Lisfranc-Verletzung"
-  - "Metatarsale Stressfraktur"
+### RICHTIG:
+- **Exakte Textpassagen** aus dem MRT-Befund kopieren
+- Wortwörtliche Übernahme ohne Änderungen
+- Beispiel: Befundtext enthält "mäßiger Gelenkerguss im OSG" 
+  → `references: ["mäßiger Gelenkerguss im OSG"]`
 
-  ### Bei Unsicherheit:
-  1. Alle 620+ Enum-Optionen geprüft?
-  2. Wirklich schema-fremde Pathologie?
-  3. Im Zweifel: NICHT in unbekannte_diagnosen
+### FALSCH:
+- Paraphrasierung oder Zusammenfassung
+- Eigene Formulierungen
+- Leere References bei positiven Diagnosen
+- Interpretationen oder Schlussfolgerungen
 
-  WICHTIG: References müssen exakte, wortwörtliche Zitate sein - keine Interpretationen! Bitte zitiere nur relevante Passagen. Wenn zwischen zwei relevanten Passagen (für das Label) unwichtiger Text liegt sollst du die Liste nutzen und zwei (oder mehrere) Textabschnitte angeben. Deswegen ist references als list[str] angegeben""",
+### AUSNAHME - Keine Referenzen nötig:
+- Negativbefunde: "Nicht abgrenzbar", "Kein Nachweis", etc.
+
+## QUALITÄTSKONTROLLE - CHECKLISTE:
+
+Vor Abgabe prüfen:
+1. Alle positiven Diagnosen haben Originaltext-Referenzen?
+2. Keine leeren References bei pathologischen Befunden?
+3. Wortwörtliche Zitate ohne Eigeninterpretation?
+4. Negative Befunde korrekt als solche klassifiziert?
+
+## UNBEKANNTE_DIAGNOSEN - Schema-Lücken-Erfassung:
+
+### Zweck:
+Forschungstool zur Identifikation fehlender Pathologien im Schema. Dient der Schema-Verbesserung und -Vollständigkeit.
+
+### Erfassungskriterien (alle müssen erfüllt sein):
+1. **Gesicherte, definitiv beschriebene Pathologie**
+2. **Keine passende Option** in 620+ verfügbaren Enum-Begriffen
+3. **Medizinisch relevante Pathologie**
+4. **Sprunggelenkbezogen**
+
+### NICHT erfassen:
+- Vermutungen: "möglich", "verdächtig", "DD:", "eventuell"
+- Detailbeschreibungen bereits erfasster Pathologien
+- Synonyme vorhandener Enum-Optionen
+- Lokalisierungsdetails bereits erfasster Befunde
+- Ausschlussdiagnosen: "kein Hinweis auf"
+
+### Beispiele für echte Schema-Lücken:
+- "Morton Neurom zwischen 3. und 4. Mittelfußknochen"
+- "Lisfranc-Verletzung"  
+- "Metatarsale Stressfraktur"
+
+### Bei Unsicherheit:
+1. Alle 620+ Enum-Optionen geprüft?
+2. Wirklich schema-fremde Pathologie?
+3. **Im Zweifel: NICHT in unbekannte_diagnosen**
+
+---
+
+## ZUSAMMENFASSUNG - KERNREGEL:
+**POSITIVE DIAGNOSE = ORIGINALTEXT-REFERENZ PFLICHT**
+**KEINE REFERENZ = UNGÜLTIGE DIAGNOSE**""",
             },
             {"role": "user", "content": report},
         ],
@@ -128,10 +151,12 @@ def save_processing_index(filename: str, content: list[str]):
 
 
 def refine_model(reports: list[Path], index_file: list[str]) -> None:
-    processing_index_file = f"/home/homesOnMaster/pehrlich/dataset_preparation/osg/extracted_labels/indices/index_{datetime.datetime.now()}.json"
+    processing_index_file = f"/Users/admin/Projekte/Datenaufbereitung/Label Engineering/osg/extracted_labels/indices/index_{datetime.datetime.now()}.json"
     processed_studies = []
 
-    for report_path in reports:
+    for report_path in [
+        r for r in reports if "1.2.840.113619.6.95.31.0.3.4.1.3096.13.263561" in str(r)
+    ]:
         study_uid = report_path.name.split(".txt")[0]
 
         if study_uid in index_file:
@@ -142,7 +167,10 @@ def refine_model(reports: list[Path], index_file: list[str]) -> None:
         with open(report_path, "r", encoding="utf-8") as f:
             report = f.read()
 
-        extracted_labels, completion = extract_data(report)
+        try:
+            extracted_labels, completion = extract_data(report)
+        except Exception as e:
+            print(e)
 
         if not extracted_labels.unbekannte_diagnosen:
             save_extraction_results(
@@ -159,7 +187,7 @@ def refine_model(reports: list[Path], index_file: list[str]) -> None:
 
 if __name__ == "__main__":
     dir_path = Path(
-        "/home/homesOnMaster/pehrlich/dataset_preparation/.export/osg/reports"
+        "/Users/admin/Projekte/Datenaufbereitung/Label Engineering/osg/reports"
     )
     # index_files = "/home/homesOnMaster/pehrlich/dataset_preparation/osg/extracted_labels/indices/index_2025-09-17 15:33:41.263418.json"
 

@@ -641,11 +641,9 @@ class TalokruralerKnorpel(BaseModel):
         default=None,
         description="Knorpelpathologien am Talus im OSG. LLM soll nach 'Knorpel', 'chondral', 'Talus', 'Talusdome', 'Trochlea tali' suchen.",
     )
-    osteochondrale_laesion: Optional[LabelWithReferences[OsteochondraleLaesion]] = (
-        Field(
-            default=None,
-            description="Osteochondrale Läsionen im OSG. LLM soll nach 'osteochondrale Läsion', 'OCD', 'Knorpel-Knochen-Defekt', 'osteochondraler Defekt' suchen.",
-        )
+    osteochondrale_laesion: Optional[OsteochondraleLaesion] = Field(
+        default=None,
+        description="Osteochondrale Läsionen im OSG. LLM soll nach 'osteochondrale Läsion', 'OCD', 'Knorpel-Knochen-Defekt', 'osteochondraler Defekt' suchen.",
     )
 
 
@@ -795,7 +793,7 @@ class SprunggelenkMRTBericht(BaseModel):
     neurovaskulaer_weichteile: NeurovaskulaerWeichteile = Field(
         description="Neurovaskuläre Strukturen, Tarsaltunnel und Weichteile"
     )
-    postoperativ: Optional[LabelWithReferences[Postoperativ]] = Field(
+    postoperativ: Optional[Postoperativ] = Field(
         default=None,
         description="Postoperative Befunde wie Implantate und Osteotomiezeichen",
     )

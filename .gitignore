@@ -1,3 +1,4 @@
+.vscode 
 .local
 .export
 .envlocal
@@ -6,3 +7,5 @@
 **.zip
 **.npy
 **.csv
+**/reports/*
+**.DS_Store
